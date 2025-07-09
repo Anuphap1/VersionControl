@@ -1,4 +1,15 @@
 <template>
+  <q-page class="flex flex-center">
+    <img alt="Quasar logo" src="~assets/quasar-logo-vertical.svg" style="width: 200px; height: 200px">
+    <img alt="Quasar logo" src="~assets/quasar-logo-vertical.svg" style="width: 200px; height: 200px">
+  </q-page>
+</template>
+
+<script setup>
+//
+</script>
+
+<template>
   <div class="q-pa-md" style="max-width: 400px">
 
     <q-form @submit="onSubmit" @reset="onReset" class="q-gutter-md">
